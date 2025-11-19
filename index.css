@@ -1,3 +1,7 @@
+
+  
+
+
 .navbar1 {
     position: absolute;
     padding: 25px 60px;
@@ -13,8 +17,9 @@
 }
 
 .fix-center {
-    margin-left: 12%;
+    margin-left: 13%;
     margin-right: auto;
+    gap: 20px;
 }
 
 .mobile-icons {
@@ -546,7 +551,16 @@
         gap: 15px;
         margin-top: 20px;
     }
-
+    .fix-center{
+        margin: 0;
+    }
+#navMenu {
+        background: #ffffff;
+        padding: 25px 30px;
+        border-radius: 12px;
+        box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.15);
+        margin-top: 12px;
+    } 
     #main-part2-bgimg {
         background-image: none;
     }
@@ -723,6 +737,16 @@
         justify-content: center;
         gap: 15px;
         margin-top: 20px;
+    }
+    #navMenu {
+        background: #ffffff;
+        padding: 25px 30px;
+        border-radius: 12px;
+        box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.15);
+        margin-top: 12px;
+    } 
+     .fix-center{
+        margin: 0;
     }
 .main-content{
     height: auto;
@@ -903,7 +927,16 @@
         gap: 15px;
         margin-top: 20px;
     }
-
+     .fix-center{
+        margin: 0;
+    }
+#navMenu {
+        background: #ffffff;
+        padding: 25px 30px;
+        border-radius: 12px;
+        box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.15);
+        margin-top: 12px;
+    } 
     #main-part2-bgimg {
         background-image: none;
     }
