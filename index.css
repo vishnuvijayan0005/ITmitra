@@ -35,6 +35,19 @@
     color: black;
 }
 
+.close-icon {
+    display: none;
+}
+
+/* When menu is open */
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    display: none;
+}
+
+.navbar-toggler:not(.collapsed) .close-icon {
+    display: block;
+}
+
 .icon-part {
     display: flex;
     flex-direction: row;
@@ -554,6 +567,9 @@
     .fix-center{
         margin: 0;
     }
+    .close-icon {
+    display: none;
+}
 #navMenu {
         background: #ffffff;
         padding: 25px 30px;
