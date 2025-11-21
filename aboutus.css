@@ -340,7 +340,7 @@
 
 .grid-box {
     background: #fff;
-            padding: 20px 15px;
+    padding: 20px 15px;
     text-align: center;
     border-radius: 12px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.07);
@@ -514,10 +514,71 @@
     color: black;
 }
 
+.india-cities-section{
+        background: linear-gradient(180deg, #FFF6F3 0%, #FFFFFF 100%);
+    padding: 80px 100px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    position: relative;
+    min-height: auto;
+    overflow: visible;
+}
+.india-cities-header h3{
 
+    font-size: 40px;
+    font-weight: 700;
+    color: #0C594E;
+}
+.india-cities-header p{
+    color: #555;
+    margin-top: 10px;
+    font-size: 18px;}
+.india-cities-main{
+        display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 80px;
+    margin-top: 50px;
+}
+.india-cities-main-map{
+    position: relative;
+    width: 500px;
+}
+.india-cities-main-city-grid{
+        display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 114px 87px;
+    justify-items: center;
+    max-width: 700px;
+}
+.main-city-icon{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  margin: 10px auto 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
 
-
-
+.main-city-grid{
+        text-align: center;
+   
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.main-city-grid p{
+        font-size: 13px;
+    color: #666;
+    width: 150px;
+}
 .foot {
     height: 205px;
     background-color: black;
@@ -693,7 +754,7 @@
     }
 
     .grid-box {
-                padding: 20px 15px;
+        padding: 20px 15px;
     }
 
     .fourth-part1-cities {
@@ -786,6 +847,29 @@
         position: relative;
         top: 20%;
     }
+        .india-cities-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 80px;
+    margin-top: 50px;
+    flex-direction: column;
+}
+.india-cities-main-map img{
+    width: 100%;
+}
+.india-cities-main-city-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 114px 87px;
+    justify-items: center;
+    max-width: 700px;
+    margin-bottom: 50px;
+}
+.india-cities-main-map {
+    position: relative;
+    width: 100%;
+}
 }
 
 @media (min-width:321px)and (max-width:640px) {
@@ -924,7 +1008,7 @@
     }
 
     .grid-box {
-                padding: 20px 15px;
+        padding: 20px 15px;
     }
 
     .fourth-part1-cities {
@@ -1022,9 +1106,33 @@
         position: relative;
         top: 20%;
     }
+
     .second-body-part2 {
-    max-width: 600px;
-    padding: 10px;
+        max-width: 600px;
+        padding: 10px;
+    }
+     .india-cities-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 80px;
+    margin-top: 50px;
+    flex-direction: column;
+}
+.india-cities-main-map img{
+    width: 100%;
+}
+.india-cities-main-city-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 114px 87px;
+    justify-items: center;
+    max-width: 700px;
+    margin-bottom: 50px;
+}
+.india-cities-main-map {
+    position: relative;
+    width: 100%;
 }
 }
 
@@ -1145,13 +1253,16 @@
         gap: 30px;
         margin: auto;
     }
-    .commonDiv{
-    gap: 33px;
-    width: 84%;
-    margin: auto;
-    margin-bottom: 50px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);}
+
+    .commonDiv {
+        gap: 33px;
+        width: 84%;
+        margin: auto;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .third-part2 {
         width: 100%;
         margin: auto;
@@ -1167,7 +1278,7 @@
     }
 
     .grid-box {
-                padding: 20px 15px;
+        padding: 20px 15px;
     }
 
     .fourth-part1-cities {
@@ -1224,13 +1335,13 @@
     }
 
 
-.second-body-part2 {
-    max-width: 600px;
-    padding: 10px;
-}
+    .second-body-part2 {
+        max-width: 600px;
+        padding: 10px;
+    }
 
     .first-body-content-box {
-     
+
         padding-top: 25%;
         width: 100%;
     }
@@ -1244,7 +1355,7 @@
     .second-body {
         position: relative;
 
-                margin-top: -80%;
+        margin-top: -80%;
     }
 
     .second-body-container {
@@ -1258,7 +1369,28 @@
         position: relative;
         top: 20%;
     }
+
+    .india-cities-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 80px;
+    margin-top: 50px;
+    flex-direction: column;
 }
+.india-cities-main-map img{
+    width: 100%;
+}
+.india-cities-main-city-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 114px 87px;
+    justify-items: center;
+    max-width: 700px;
+    margin-bottom: 50px;
+}
+}
+
 @media (min-width:769px)and (max-width:984px) {
     .mobile-icons {
         display: flex;
@@ -1369,13 +1501,16 @@
         grid-template-columns: repeat(1, 1fr);
         margin: auto;
     }
-.commonDiv{
-    gap: 33px;
-    width: 84%;
-    margin: auto;
-    margin-bottom: 50px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);}
+
+    .commonDiv {
+        gap: 33px;
+        width: 84%;
+        margin: auto;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .flex-box-gridbox2 {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -1398,7 +1533,7 @@
     }
 
     .grid-box {
-               padding: 20px 15px;
+        padding: 20px 15px;
     }
 
     .fourth-part1-cities {
@@ -1455,13 +1590,13 @@
     }
 
 
-.second-body-part2 {
-    max-width: 600px;
-    padding: 10px;
-}
+    .second-body-part2 {
+        max-width: 600px;
+        padding: 10px;
+    }
 
     .first-body-content-box {
-     
+
         padding-top: 25%;
         width: 100%;
     }
@@ -1475,7 +1610,7 @@
     .second-body {
         position: relative;
 
-                      margin-top: -56%;
+        margin-top: -56%;
     }
 
     .second-body-container {
