@@ -66,15 +66,7 @@
     align-items: center;
 }
 
-*/ .navbar1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: transparent;
-    padding: 25px 60px;
-    z-index: 10;
-}
+
 
 .navbar1 .container {
     display: flex;
@@ -120,7 +112,7 @@
 
 .main-part1 {
     width: 50%;
-    padding: 160px 60px 0;
+    padding: 240px 60px 0;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -136,7 +128,7 @@
     background-image: url(assets/design1.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0px -22px;
+    background-position: -35px 35px;
     opacity: 0.2;
     z-index: 0;
 
@@ -170,6 +162,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .first-button button {
@@ -178,6 +171,7 @@
     border-radius: 35px;
     background-color: #01DC82;
     border: none;
+    color: white;
 }
 
 
@@ -244,7 +238,7 @@
 }
 
 .first-part2-title h3 {
-    font-family: poppins-semibold;
+    font-family: poppinssemibold;
     font-size: 60px;
 }
 
@@ -279,8 +273,8 @@
     gap: 30px;
 }
 
-.second-part1-title {
-    font-family: poppins-semibold;
+.second-part1-title h3{
+    font-family: poppinssemibold;
     font-size: 50px;
     color: white;
 }
@@ -294,8 +288,9 @@
 }
 
 .why-icons p {
-    font-family: poppins;
+    font-family: poppinsMeidum;
     font-size: 15px;
+        margin-top: 10px;
 }
 
 
@@ -310,7 +305,8 @@
 
 .third-part1-title h3 {
     text-align: center;
-    font-size: 48px;
+        font-size: 50px;
+    font-family: poppinsemibold;
     margin-bottom: 60px;
     font-weight: 700;
 
@@ -339,7 +335,8 @@
     text-align: center;
     border-radius: 12px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.07);
-    max-width: 245px;
+    height: 228px;
+    width: 228px;
 }
 
 .grid-box img {
@@ -347,9 +344,10 @@
     margin-bottom: 20px;
 }
 
-.grid-box h3 {
-    font-size: 20px;
+.grid-box h5 {
+        font-size: 18px;
     margin-bottom: 10px;
+    font-family: 'poppinssemibold';
 }
 
 .grid-box p {
@@ -390,7 +388,10 @@
     height: 196px;
 
 }
-
+.fourth-part1-title h4{
+    font-size: 40px;
+    font-family: poppinssemibold;
+}
 #fourth-part1 {
     background-image: url(assets/fourthpart1.png);
     background-repeat: no-repeat;
@@ -495,6 +496,13 @@
 .form-content textarea {
     width: 100%;
     padding: 10px;
+    border: none;
+    border-radius: 7px;
+}
+.form-content label {
+    display: inline-block;
+    font-size: 17px;
+    font-family: 'poppins';
 }
 
 .form-content textarea {
@@ -503,7 +511,7 @@
 
 .form-box h4 {
     font-size: 47px;
-    font-family: poppin-semibold;
+    font-family: poppinssemibold;
     text-align: center;
 }
 
@@ -537,12 +545,12 @@
 .foot-part1 {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 12px;
 }
 
 .foot-icon {
     border-radius: 50%;
-    border: solid 2px white;
+    border: solid 1px white;
     border-color: white;
     width: 35px;
     height: 35px;
@@ -552,7 +560,10 @@
 }
 
 
-
+.foot-part2 p{
+        font-size: 16px;
+    font-family: 'poppins';
+}
 
 /* Responsieve side */
 
@@ -691,6 +702,15 @@
 
     .grid-box {
         padding: 25px 0;
+      
+    background: #fff;
+    padding: 25px 8px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.07);
+    height: auto;
+    width: 100%;
+
     }
 
     .fourth-part1-cities {
@@ -833,8 +853,16 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
+ 
 
-
+    /* .commonDiv {
+        gap: 33px;
+        width: 84%;
+        margin: auto;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    } */
     
 
     .second {
@@ -880,6 +908,15 @@
 
     .grid-box {
         padding: 25px 0;
+      
+    background: #fff;
+    padding: 25px 8px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.07);
+    height: auto;
+    width: 100%;
+
     }
 
     .fourth-part1-cities {
@@ -936,7 +973,210 @@
     }
 }
 
-@media (min-width:641px)and (max-width:1024px) {
+@media (min-width:641px)and (max-width:768px) {
+    .mobile-icons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 20px;
+    }
+     .fix-center{
+        margin: 0;
+    }
+#navMenu {
+        background: #ffffff;
+        padding: 25px 30px;
+        border-radius: 12px;
+        box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.15);
+        margin-top: 12px;
+    } 
+    #main-part2-bgimg {
+        background-image: none;
+    }
+
+    .navbar1 {
+        padding: 10px;
+
+    }
+
+     .main-content {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .main-part1 {
+        width: 100%;
+        padding: 120px 40px 60px;
+    }
+
+    .first-title h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .first-para p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .first-button {
+        width: 200px;
+        height: 58px;
+    }
+
+    .main-part2 {
+        width: 0;
+    }
+
+    .first {
+        flex-direction: column;
+        gap: 40px;
+        padding: 40px 20px;
+    }
+
+    .first-part1,
+    .first-part2 {
+        width: 100%;
+    }
+
+    .first-part1-image {
+        max-width: 100%;
+    }
+
+    .first-part2-title h3 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .first-part2-para p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .second-part2-gridbox {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .commonDiv {
+        gap: 33px;
+        width: 84%;
+        margin: auto;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+  
+
+    .second {
+        margin-top: 30px;
+        width: 100%;
+        max-height: 100%;
+
+        text-align: center;
+        background-color: #005653;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        gap: 30px;
+    }
+
+    .third-part2-gridbox {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+    }
+
+    .flex-box-gridbox2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        margin: auto;
+    }
+
+    .third-part2 {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .third-part3 {
+        width: 100%;
+    }
+
+    .grid-box {
+        padding: 25px 0;
+        
+    background: #fff;
+    padding: 25px 8px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.07);
+    height: auto;
+    width: 100%;
+
+    }
+
+    .fourth-part1-cities {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        gap: 50px;
+    }
+
+    .fourth-part1-title {
+        text-align: center;
+        font-size: 40px;
+        font-family: poppin-bold;
+        width: 100%;
+    }
+
+    #fourth-part1 {
+        flex-direction: column;
+        padding: 0 10px;
+        gap: 20px;
+    }
+
+    .fourth-part2-empty {
+        display: none;
+
+    }
+
+    .form-box {
+        width: 100%;
+        padding: 10px;
+        height: auto;
+
+    }
+
+    .fourth-part2-formbox {
+        width: 100%;
+    }
+
+    .form-content {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "fname"
+            "lname"
+            "mail"
+            "ph"
+            "msg";
+    }
+
+    .foot-part1 {
+        gap: 15px;
+
+    }
+}
+
+@media (min-width:769px)and (max-width:991px) {
     .mobile-icons {
         display: flex;
         justify-content: center;
@@ -1066,6 +1306,15 @@
 
     .grid-box {
         padding: 25px 0;
+      
+    background: #fff;
+    padding: 25px 8px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.07);
+    height: auto;
+    width: 100%;
+
     }
 
     .fourth-part1-cities {
@@ -1119,5 +1368,220 @@
     .foot-part1 {
         gap: 15px;
 
+    }
+        .commonDiv {
+        gap: 33px;
+        width: 84%;
+        margin: auto;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (min-width:992px)and (max-width:1024px) {
+    .mobile-icons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 20px;
+    }
+     .fix-center{
+        margin: 0;
+    }
+#navMenu {
+        background: #ffffff;
+        padding: 25px 30px;
+        border-radius: 12px;
+        box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.15);
+        margin-top: 12px;
+    } 
+    #main-part2-bgimg {
+        background-image: none;
+    }
+
+    .navbar1 {
+        padding: 10px;
+
+    }
+
+     .main-content {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .main-part1 {
+        width: 100%;
+        padding: 120px 40px 60px;
+    }
+
+    .first-title h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .first-para p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .first-button {
+        width: 200px;
+        height: 58px;
+    }
+
+    .main-part2 {
+        width: 0;
+    }
+
+    .first {
+        flex-direction: column;
+        gap: 40px;
+        padding: 40px 20px;
+    }
+
+    .first-part1,
+    .first-part2 {
+        width: 100%;
+    }
+
+    .first-part1-image {
+        max-width: 100%;
+    }
+
+    .first-part2-title h3 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .first-part2-para p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .second-part2-gridbox {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+
+  .commonDiv{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+    .second {
+        margin-top: 30px;
+        width: 100%;
+        max-height: 100%;
+
+        text-align: center;
+        background-color: #005653;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        gap: 30px;
+    }
+
+    .third-part2-gridbox {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto;
+    }
+
+    .flex-box-gridbox2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        margin: auto;
+    }
+
+    .third-part2 {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .third-part3 {
+        width: 100%;
+    }
+
+    .grid-box {
+        padding: 25px 0;
+        
+    background: #fff;
+    padding: 25px 8px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.07);
+    height: auto;
+    width: 100%;
+
+    }
+
+    .fourth-part1-cities {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        gap: 50px;
+    }
+
+    .fourth-part1-title {
+        text-align: center;
+        font-size: 40px;
+        font-family: poppin-bold;
+        width: 100%;
+    }
+
+    #fourth-part1 {
+        flex-direction: column;
+        padding: 0 10px;
+        gap: 20px;
+    }
+
+    .fourth-part2-empty {
+        display: none;
+
+    }
+
+    .form-box {
+        width: 100%;
+        padding: 10px;
+        height: auto;
+
+    }
+
+    .fourth-part2-formbox {
+        width: 100%;
+    }
+
+    .form-content {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "fname"
+            "lname"
+            "mail"
+            "ph"
+            "msg";
+    }
+
+    .foot-part1 {
+        gap: 15px;
+
+    }
+        .commonDiv {
+        gap: 33px;
+        width: 84%;
+        margin: auto;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
