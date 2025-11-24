@@ -1650,7 +1650,7 @@
         background: #ffffff;
         padding: 25px 30px;
         border-radius: 12px;
-        box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.15);
+        
         margin-top: 12px;
     }
 
@@ -1875,5 +1875,12 @@
         margin-top: 50px;
         flex-direction: column;
     }
-
+        .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+    }
 }
+
